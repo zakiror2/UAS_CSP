@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Servis Motor</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover bg-center" style="background-image: url('IMG/pattern.jpg')">
+   <div class="container mx-auto max-w-4xl p-4">
+       <div class="bg-white/90 shadow-lg rounded-lg overflow-hidden">
+           <div class="text-center py-6">
+               <img src="IMG/rider.jpg" class="mx-auto max-w-[50%] h-auto" />
+           </div>
+           
+           <div class="bg-blue-50">
+               <nav class="flex justify-center space-x-4 p-4">
+                   <a href="testride.html" class="text-gray-700 hover:text-blue-600">TestRide</a>
+                   <a href="motor.html" class="text-gray-700 hover:text-blue-600">Motor</a>
+                   <a href="servis.html" class="text-gray-700 hover:text-blue-600">Servis</a>
+                   <a href="variasi.html" class="text-gray-700 hover:text-blue-600">Variasi</a>
+                   <a href="kontakkami.html" class="text-gray-700 hover:text-blue-600">KontakKami</a>
+               </nav>
+           </div>
+           
+           <div class="p-6">
+               <h2 class="text-2xl font-bold mb-4 text-center">Layanan Servis Motor</h2>
+               
+               <div class="grid md:grid-cols-2 gap-6">
+                   <div class="bg-white shadow-md rounded-lg p-6">
+                       <h3 class="text-xl font-semibold mb-4">Paket Servis Reguler</h3>
+                       <ul class="space-y-2 text-gray-700">
+                           <li>✓ Ganti Oli Mesin</li>
+                           <li>✓ Cek Kondisi Ban</li>
+                           <li>✓ Periksa Sistem Pengereman</li>
+                           <li>✓ Pembersihan Rantai Motor</li>
+                           <li>✓ Pemeriksaan Busi</li>
+                       </ul>
+                       <div class="mt-4 text-center">
+                           <span class="text-xl font-bold text-blue-600">Rp 8.000.000</span>
+                       </div>
+                   </div>
+                   
+                   <div class="bg-white shadow-md rounded-lg p-6">
+                       <h3 class="text-xl font-semibold mb-4">Paket Servis Lengkap</h3>
+                       <ul class="space-y-2 text-gray-700">
+                           <li>✓ Semua Layanan Paket Reguler</li>
+                           <li>✓ Tune Up Mesin</li>
+                           <li>✓ Ganti Kampas Rem</li>
+                           <li>✓ Balancing Roda</li>
+                           <li>✓ Pemeriksaan Kelistrikan</li>
+                       </ul>
+                       <div class="mt-4 text-center">
+                           <span class="text-xl font-bold text-blue-600">Rp 15.000.000</span>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="mt-8 bg-blue-100 p-6 rounded-lg">
+                   <h3 class="text-xl font-semibold mb-4 text-center">Form Booking Servis</h3>
+                   <form class="max-w-md mx-auto space-y-4">
+                       <input 
+                           type="text" 
+                           placeholder="Nama Lengkap" 
+                           class="w-full px-3 py-2 border rounded-lg"
+                           required
+                       />
+                       <input 
+                           type="tel" 
+                           placeholder="Nomor Telepon" 
+                           class="w-full px-3 py-2 border rounded-lg"
+                           required
+                       />
+                       <select class="w-full px-3 py-2 border rounded-lg" required>
+                           <option value="">Pilih Paket Servis</option>
+                           <option value="reguler">Paket Servis Reguler</option>
+                           <option value="lengkap">Paket Servis Lengkap</option>
+                       </select>
+                       <input 
+                           type="date" 
+                           class="w-full px-3 py-2 border rounded-lg"
+                           required
+                       />
+                       <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                           Booking Servis
+                       </button>
+                   </form>
+               </div>
+           </div>
+           
+           <footer class="bg-black text-white text-center p-4">
+               <p>Copyright by Achmad Zaki Naufal - 23201244 ©2024</p>
+           </footer>
+       </div>
+   </div>
+</body>
+</html>
